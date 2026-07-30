@@ -51,3 +51,19 @@ Designed as a **Snowflake Schema** to streamline relationships, preserve lookup 
 
 ---
 
+## 👩‍💻 About the Author
+<table width="100%" style="border: none; border-collapse: collapse;">
+  <tr>
+    <td align="center" style="border: none; padding: 15px;">
+      <p style="margin: 0 0 15px 0; line-height: 1.6; max-width: 600px;">
+        Hi, I'm <b>Edita Avetisyan</b>—I bridge the gap between finance, operations, and analytics, combining business thinking with technical BI capabilities to turn complex data into strategic insights. Beyond data, I believe in genuine human connections.
+      </p>
+      <p style="margin: 0 0 20px 0; line-height: 1.6; max-width: 600px; color: #555; font-size: 0.95em;">
+        <em>💡 Feel free to reach out via LinkedIn if you'd like to request project files or datasets for your learning journey!</em>
+      </p>
+      <a href="https://www.linkedin.com/in/edita-avetisyan" target="_blank" rel="noopener noreferrer">
+        <img src="https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Profile" />
+      </a>
+    </td>
+  </tr>
+</table>

@@ -33,7 +33,8 @@ Sales performance tracking and inventory management are critical for maintaining
 ## 🛠️ Data Architecture & Schema Model
 
 Designed with a structured dimensional schema to streamline relationships, maintain transactional granularity across product lines and offices, and optimize reporting performance.
-<img width="1142" height="695" alt="Schema" src="https://github.com/user-attachments/assets/025dc218-c346-40bb-9ff5-ab7456d100dd" />
+<img width="1173" height="1341" alt="Classicmodels_Schema" src="https://github.com/user-attachments/assets/d13dfac2-b331-4431-a7c6-4f6b4bc3e97e" />
+
 
 ---
 

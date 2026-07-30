@@ -35,11 +35,19 @@ Designed as a **Snowflake Schema** to streamline relationships, preserve lookup 
 
 ---
 
-## 🧰 Toolkit & Business Value Stack
+## 🧰 Toolkit
+| <div align="center"><h3>Scope</h3></div> | <div align="center"><h3>Technology</h3></div> | <div align="center"><h3>Business Impact & Execution</h3></div> |
+| :--- | :---: | :--- |
+| <div nowrap="nowrap">**Data Extraction**</div> | <img src="https://img.shields.io/badge/CSV_Files-2C3E50?style=for-the-badge&logo=file-type-csv&logoColor=white"/> | Ingested raw HR operational datasets covering employee demographics, tenure history, and engagement surveys. |
+| <div nowrap="nowrap">**Data Transformation**</div> | <img src="https://img.shields.io/badge/Power_Query-4A607A?style=for-the-badge&logo=powerbi&logoColor=white"/> | Standardized data formats, unpivoted survey attribute tables, resolved missing values, and structured normalized dimensions. |
+| <div nowrap="nowrap">**Semantic Layer**</div> | <img src="https://img.shields.io/badge/DAX_Engine-E06D53?style=for-the-badge&logo=powerbi&logoColor=white"/> | Centralized business logic using a dedicated measures table, developed core KPIs, engineered DAX calculations to track employee sentiment and retention rates, and applied conditional formatting for risk analysis. |
+| <div nowrap="nowrap">**Data Visualization**</div> | <img src="https://img.shields.io/badge/Power_BI-F2C94C?style=for-the-badge&logo=powerbi&logoColor=black"/> | Delivered an intuitive executive dashboard featuring customized charts and dynamic filtering, enabling HR leaders to make proactive, data-backed retention decisions. |
 
-| Domain | Technology | Implementation & Strategic Impact |
-| :--- | :--- | :--- |
-| <div nowrap="nowrap">**Data Extraction**</div> | <img src="https://img.shields.io/badge/CSV_Files-2C3E50?style=for-the-badge&logo=file-type-csv&logoColor=white"/> | Consolidated raw HR records covering employee demographics, tenure history, and engagement feedback into a central data pipeline. |
-| <div nowrap="nowrap">**Data Transformation**</div> | <img src="https://img.shields.io/badge/Power_Query-4A607A?style=for-the-badge&logo=powerbi&logoColor=white"/> | Cleaned and standardized multi-source data, structuring complex survey metrics to enable fast, cross-departmental analysis. |
-| <div nowrap="nowrap">**Semantic Layer**</div> | <img src="https://img.shields.io/badge/DAX-E06D53?style=for-the-badge&logo=powerbi&logoColor=white"/> | Built business logic and automated calculations to monitor retention rates, track employee sentiment, and pinpoint attrition risk factors. |
-| <div nowrap="nowrap">**Data Visualization**</div> | <img src="https://img.shields.io/badge/Power_BI-F2C94C?style=for-the-badge&logo=powerbi&logoColor=black"/> | Delivered an intuitive executive dashboard with dynamic filtering, enabling HR leaders to make proactive, data-backed retention decisions. |
+---
+
+## 📈 Dashboard
+
+<img width="1277" height="712" alt="HR Dashboard_Edita Avetisyan" src="https://github.com/user-attachments/assets/0a0ee168-5fdb-4a06-b0bd-441f8432f0fa" />
+
+---
+

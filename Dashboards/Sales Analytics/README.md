@@ -49,11 +49,12 @@ Designed with a structured dimensional schema to streamline relationships, maint
 
 ## 📈 Dashboard
 
-<img width="1277" height="712" alt="Classic Models Sales Performance Overview" src="https://github.com/user-attachments/assets/0a0ee168-5fdb-4a06-b0bd-441f8432f0fa" />
+<img width="3077" height="3332" alt="Classicmodels_Edita_Avetisyan_Group_4_Ardy (2)_page-0001" src="https://github.com/user-attachments/assets/f03f6c56-afba-42d3-8eb3-ba96e3c4ce00" />
+
 
 ---
 
-## 👩‍💻 About the Author
+## 👩‍💻 About the Analyst
 <table width="100%" style="border: none; border-collapse: collapse;">
   <tr>
     <td align="center" style="border: none; padding: 15px;">

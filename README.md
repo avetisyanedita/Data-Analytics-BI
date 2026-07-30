@@ -1,2 +1,1 @@
-# Data-Analytics-BI
-Data Analytics &amp; BI portfolio featuring end-to-end projects in SQL, Power BI, Tableau, Python, and data visualization with a focus on solving real business problems.
+Welcome to my Data Analytics & Business Intelligence portfolio! This repository features end-to-end projects demonstrating data extraction, transformation, visualization, and strategic business problem-solving using SQL, Python, Excel, Power BI, and Tableau.

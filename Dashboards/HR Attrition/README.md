@@ -51,7 +51,7 @@ Designed as a **Snowflake Schema** to streamline relationships, preserve lookup 
 
 ---
 
-## 👩‍💻 About the Author
+## 👩‍💻 About the Analyst
 <table width="100%" style="border: none; border-collapse: collapse;">
   <tr>
     <td align="center" style="border: none; padding: 15px;">

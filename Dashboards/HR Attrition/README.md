@@ -6,7 +6,7 @@
 ![Retention Strategy](https://img.shields.io/badge/Retention_Strategy-2C3E50?style=for-the-badge)
 
 ## 📌 Executive Summary
-Employee attrition poses significant financial, operational, and operational-culture risks to modern organizations. This project delivers an executive-level **HR Attrition & Workforce Retention Dashboard** built in Power BI. By evaluating demographic factors, job roles, tenure, salary brackets, and work-life balance indicators, this analytics suite identifies key turnover drivers and provides actionable retention strategies.
+Employee attrition poses significant financial, operational, and operational-culture risks to modern organizations. This project delivers an executive-level **HR Attrition & Workforce Retention Dashboard** built in **Power BI**. By evaluating demographic factors, job roles, tenure, salary brackets, and work-life balance indicators, this analytics suite identifies key turnover drivers and provides actionable retention strategies.
 
 ---
 

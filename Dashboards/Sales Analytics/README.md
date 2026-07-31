@@ -1,12 +1,12 @@
 # 📊 Classic Models Sales Performance Analytics
 
-![Data Analytics](https://img.shields.io/badge/Data_Analytics-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
-![Looker](https://img.shields.io/badge/Looker_Dashboard-4285F4?style=for-the-badge&logo=looker&logoColor=white)
-![Sales Performance](https://img.shields.io/badge/Sales_Performance-2C3E50?style=for-the-badge)
-![Business Intelligence](https://img.shields.io/badge/Business_Intelligence-E06D53?style=for-the-badge)
+[![Data Analytics](https://img.shields.io/badge/Data_Analytics-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)](https://github.com)
+[![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://github.com)
+[![Looker](https://img.shields.io/badge/Looker_Dashboard-4285F4?style=for-the-badge&logo=looker&logoColor=white)](https://github.com)
+[![Sales Performance](https://img.shields.io/badge/Sales_Performance-2C3E50?style=for-the-badge)](https://github.com)
 
 ## 📌 Executive Summary
-Sales performance tracking and inventory management are critical for maintaining healthy cash flow and operational stability. This project delivers an executive-level **Classic Models Sales Performance Dashboard** built in Looker. By evaluating product profitability, sales trends, credit utilization, and regional sales distribution, this analytics suite identifies key revenue drivers and exposes credit risk exposures.
+Sales performance tracking and inventory management are critical for maintaining healthy cash flow and operational stability. This project delivers an executive-level **Classic Models Sales Performance Dashboard** built in **Looker**. By evaluating product profitability, sales trends, credit utilization, and regional sales distribution, this analytics suite identifies key revenue drivers and exposes credit risk exposures.
 
 ---
 
@@ -32,19 +32,20 @@ Sales performance tracking and inventory management are critical for maintaining
 
 ## 🛠️ Data Architecture & Schema Model
 
-Designed with a structured dimensional schema to streamline relationships, maintain transactional granularity across product lines and offices, and optimize reporting performance.
+Architected using a Snowflake schema, this sales data warehouse normalizes dimension tables to streamline complex relationships and eliminate data redundancy. It features comprehensive fact tables that preserve deep, low-level transactional granularity across product lines, offices, and business processes.
+
 <img width="1173" height="1341" alt="Classicmodels_Schema" src="https://github.com/user-attachments/assets/d13dfac2-b331-4431-a7c6-4f6b4bc3e97e" />
 
 
 ---
 
 ## 🧰 Toolkit
-| <div align="center"><h3>Scope</h3></div> | <div align="center"><h3>Technology</h3></div> | <div align="center"><h3>Business Impact & Execution</h3></div> |
-| :--- | :---: | :--- |
-| <div nowrap="nowrap">**Data Extraction**</div> | <img src="https://img.shields.io/badge/SQL_Database-4A607A?style=for-the-badge&logo=postgresql&logoColor=white"/> | Ingested relational sales, customer, product line, and employee operational data from the Classic Models database. |
-| <div nowrap="nowrap">**Data Transformation**</div> | <img src="https://img.shields.io/badge/SQL_%2F_LookML-4285F4?style=for-the-badge&logo=looker&logoColor=white"/> | Modeled views and explores, standardized calculated fields, and defined dimensions and measures for financial reporting. |
-| <div nowrap="nowrap">**Semantic Layer**</div> | <img src="https://img.shields.io/badge/Looker_Model-E06D53?style=for-the-badge&logo=looker&logoColor=white"/> | Centralized business logic using LookML, engineered core revenue KPIs, credit ratios, profitability margins, and order fulfillment metrics. |
-| <div nowrap="nowrap">**Data Visualization**</div> | <img src="https://img.shields.io/badge/Looker_Dashboard-4285F4?style=for-the-badge&logo=looker&logoColor=white"/> | Delivered an intuitive executive dashboard featuring custom themes, geographic maps, scatter plots, and dynamic filtering for real-time sales monitoring. |
+| Scope | Technology | Business Impact & Execution |
+| :--- | :--- | :--- |
+| **Data Extraction** | [![MYSQL](https://img.shields.io/badge/MYSQL-2E3856?style=for-the-badge&logo=mysql&logoColor=white)](https://github.com) | Connected directly to the operational Classic Models database to extract sales, customer, product line, and employee data using complex SQL queries with CTEs and multi-table joins. |
+| **Data Transformation** | [![MYSQL / LOOKML](https://img.shields.io/badge/MYSQL_%2F_LOOKML-2E3856?style=for-the-badge&logo=looker&logoColor=white)](https://github.com) | Established a live connection from MySQL to Looker, writing custom queries, CTEs, and joins to structure data, standardize calculated fields, and define core dimensions and measures. |
+| **Semantic Layer** | [![LOOKER MODEL](https://img.shields.io/badge/LOOKER_MODEL-2E3856?style=for-the-badge&logo=looker&logoColor=white)](https://github.com) | Centralized business logic using LookML, engineered core revenue KPIs, credit ratios, profitability margins, and order fulfillment metrics. |
+| **Data Visualization** | [![LOOKER DASHBOARD](https://img.shields.io/badge/LOOKER_DASHBOARD-2E3856?style=for-the-badge&logo=looker&logoColor=white)](https://github.com) | Delivered an intuitive executive dashboard featuring custom themes, geographic maps, scatter plots, and dynamic filtering for real-time sales monitoring. |
 
 ---
 

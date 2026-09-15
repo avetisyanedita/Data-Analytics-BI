@@ -1,4 +1,4 @@
-# 📊 Enterprise HR Attrition & Retention Analytics
+# 📊 HR Attrition & Retention Analytics
 
 ![Data Analytics](https://img.shields.io/badge/Data_Analytics-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
@@ -28,7 +28,7 @@ Employee attrition poses significant financial, operational, and operational-cul
 
 ---
 
-## 🛠️ Data Architecture & Schema Model
+## 🛠️ Data Architecture
 
 Designed as a **Snowflake Schema** to streamline relationships, preserve lookup granularity for education and dates, and maximize DAX query performance.
 <img width="1142" height="695" alt="Schema" src="https://github.com/user-attachments/assets/025dc218-c346-40bb-9ff5-ab7456d100dd" />

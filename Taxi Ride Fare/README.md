@@ -1,57 +1,89 @@
-# 📊 Enterprise HR Attrition & Retention Analytics
+# 🚕 Yandex Go — Taxi Ride Fare & Route Analytics
 
-![Data Analytics](https://img.shields.io/badge/Data_Analytics-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![HR Analytics](https://img.shields.io/badge/HR_Analytics-E06D53?style=for-the-badge)
-![Retention Strategy](https://img.shields.io/badge/Retention_Strategy-2C3E50?style=for-the-badge)
+![ETL](https://img.shields.io/badge/ETL-0078D4?style=for-the-badge)
+![Python](https://img.shields.io/badge/PYTHON-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Power BI](https://img.shields.io/badge/POWER_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![UI/UX Design](https://img.shields.io/badge/UI%2FUX_DESIGN-E06D53?style=for-the-badge)
 
 ## 📌 Executive Summary
-Employee attrition poses significant financial, operational, and operational-culture risks to modern organizations. This project delivers an executive-level **HR Attrition & Workforce Retention Dashboard** built in **Power BI**. By evaluating demographic factors, job roles, tenure, salary brackets, and work-life balance indicators, this analytics suite identifies key turnover drivers and provides actionable retention strategies.
+
+This project delivers an interactive **Yandex Go Taxi Ride Fare & Route Analytics Report** designed to evaluate how ride fares vary across **routes, distances, ride categories, trip duration, and operating conditions**.
+
+Built in **Power BI**, the solution transforms route-level ride data into an executive analytics experience that enables users to compare fare structures, identify pricing patterns, investigate route-level performance, and understand how ride characteristics influence the final fare.
+
+The dashboard consists of two analytical views:
+
+- **Dashboard** — executive-level KPIs and visual analysis of fare behavior.
+- **Details** — granular route-level fare and trip analysis with week-over-week comparisons.
+
+The analysis focuses on **Yerevan City**, covering **30 business-hub routes** during the selected reporting period.
 
 ---
 
-## 🔍 Key Findings & Analytical Insights
+## 🎯Stakeholder Objectives
 
-* **Tenure Attrition Spike:** Attrition peaks significantly during **Year 1** and **Year 3–5** of tenure, highlighting critical windows during onboarding and mid-level career progression.
-* **Role Vulnerability:** Sales Representatives, Laboratory Technicians, and Research Scientists demonstrate higher turnover rates compared to leadership roles.
-* **Overtime Impact:** Employees working consistent overtime exhibit a dramatically higher rate of voluntary departure compared to non-overtime peers.
-* **Compensation vs. Satisfaction:** Low-to-mid salary tiers show elevated sensitivity to job dissatisfaction, pointing to compensation band compressed friction.
+The report is designed to help **end-users understand and compare taxi ride fares** across different routes, distances, ride categories, and trip conditions.
 
----
+The analysis focuses on questions that matter when evaluating a ride:
 
-## 💡 Strategic Recommendations
-
-1. **Structured 30-60-90 Day Onboarding:** Mitigate early-stage turnover (Year 1) by establishing formal mentorship and integration checkpoints.
-2. **Mid-Career Pathway Reviews:** Implement structured growth and internal mobility reviews at the **2-to-3 year mark** to address mid-level stagnation.
-3. **Overtime & Burnout Guardrails:** Monitor high-overtime departments; reallocate workloads or leverage contract staffing to prevent burnout in frontline roles.
-4. **Targeted Retention Bonuses:** Focus compensation adjustments and stay-interviews on critical, high-attrition roles (e.g., Lab Technicians, Sales Reps).
+- **How much does a ride cost?** — Understand average starting and total fares across trips.
+- **How does distance affect the fare?** — Compare the cost of shorter and longer journeys and identify changes in the effective fare per kilometer.
+- **Which ride category offers the best fit?** — Compare fare levels across Start, Comfort, Comfort+, Minivan, and Premier categories.
+- **How does the route affect the price?** — Explore fare differences between routes and understand how trip characteristics influence the final cost.
+- **How does trip duration relate to the fare?** — Compare journey time and distance with the total amount paid.
+- **How have fares changed over time?** — Track week-over-week changes in start fare, total fare, and trip duration.
+- **How do trip conditions influence the journey?** — Consider factors such as weather and travel conditions when interpreting fare and duration differences.
 
 ---
 
-## 🛠️ Data Architecture & Schema Model
+## 🔍 Key Findings & User Takeaways
 
-Designed as a **Snowflake Schema** to streamline relationships, preserve lookup granularity for education and dates, and maximize DAX query performance.
-<img width="1142" height="695" alt="Schema" src="https://github.com/user-attachments/assets/025dc218-c346-40bb-9ff5-ab7456d100dd" />
+- **Average ride:** Start Fare **981 AMD**, Total Fare **2,205 AMD**, Distance **4.39 km**, and Duration **21.3 min**.
+- **Fare vs. distance:** The effective fare per kilometer generally decreases as trip distance increases, from approximately **868 AMD/km** for 1–2 km trips to **333 AMD/km** for 9–12 km trips.
+- **Ride categories:** Fare structures vary across **Start, Comfort, Comfort+, Minivan, and Premier**, allowing users to compare price differences between service levels.
+- **Route variation:** The **30 analyzed routes** show noticeable differences in fare, duration, distance, and markup, even for trips with similar characteristics.
+- **Period changes:** Average Total Fare increased **6.2%**, while average trip duration increased **17.2%**, indicating that longer journey times did not translate proportionally into higher fares.
+- **Trip conditions:** Temperature and weather provide additional context when comparing fare and duration across rides.
+
+Overall, the report helps users **compare ride costs, understand fare-per-distance patterns, and evaluate price differences across routes and ride categories**.
 
 ---
+## 🛠️ Toolkit
 
-## 🧰 Toolkit
-| <div align="center"><h3>Scope</h3></div> | <div align="center"><h3>Technology</h3></div> | <div align="center"><h3>Business Impact & Execution</h3></div> |
+| <div align="center"><h3>Data</h3></div> | <div align="center"><h3>Technology</h3></div> | <div align="center"><h3>Business Impact & Execution</h3></div> |
 | :--- | :---: | :--- |
-| <div nowrap="nowrap">**Data Extraction**</div> | <img src="https://img.shields.io/badge/CSV_Files-2C3E50?style=for-the-badge&logo=file-type-csv&logoColor=white"/> | Ingested raw HR operational datasets covering employee demographics, tenure history, and engagement surveys. |
-| <div nowrap="nowrap">**Data Transformation**</div> | <img src="https://img.shields.io/badge/Power_Query-4A607A?style=for-the-badge&logo=powerbi&logoColor=white"/> | Standardized data formats, unpivoted survey attribute tables, resolved missing values, and structured normalized dimensions. |
-| <div nowrap="nowrap">**Semantic Layer**</div> | <img src="https://img.shields.io/badge/DAX_Engine-E06D53?style=for-the-badge&logo=powerbi&logoColor=white"/> | Centralized business logic using a dedicated measures table, developed core KPIs, engineered DAX calculations to track employee sentiment and retention rates, and applied conditional formatting for risk analysis. |
-| <div nowrap="nowrap">**Data Visualization**</div> | <img src="https://img.shields.io/badge/Power_BI-F2C94C?style=for-the-badge&logo=powerbi&logoColor=black"/> | Delivered an intuitive executive dashboard featuring customized charts and dynamic filtering, enabling HR leaders to make proactive, data-backed retention decisions. |
+| <div nowrap="nowrap">**Collection**</div> | <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/> | Collected and consolidated ride-level data programmatically to create a structured dataset for fare and route analysis. |
+| <div nowrap="nowrap">**Preparation**</div> | <img src="https://img.shields.io/badge/Google_Sheets-34A853?style=for-the-badge&logo=googlesheets&logoColor=white"/> | Organized, validated, and prepared the collected data for downstream analysis and reporting. |
+| <div nowrap="nowrap">**Modeling**</div> | <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black"/> | Designed a **star schema** to structure ride, route, fare, and supporting dimensions for efficient analysis and reporting. |
+| <div nowrap="nowrap">**Analysis**</div> | <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black"/> | Developed analytical KPIs and views to evaluate fares, fare-per-kilometer, trip duration, route variation, and period-over-period changes. |
+| <div nowrap="nowrap">**UI/UX Design**</div> | <img src="https://img.shields.io/badge/Pen.dev-2C3E50?style=for-the-badge"/> | Designed and prototyped the dashboard interface in **Pen.dev**, focusing on visual hierarchy, intuitive navigation, usability, and a consistent user experience. |
 
 ---
 
-## 📈 Dashboard
+## 📊 Report Preview
 
-<img width="1277" height="712" alt="HR Dashboard_Edita Avetisyan" src="https://github.com/user-attachments/assets/0a0ee168-5fdb-4a06-b0bd-441f8432f0fa" />
+### 01 — Executive Dashboard
+
+The main dashboard provides a high-level view of taxi ride economics and enables interactive analysis by **distance, ride category, route, weather condition, and trip characteristics**.
+
+<img width="1195" height="671" alt="Yandex 1" src="https://github.com/user-attachments/assets/12b2c494-a5ea-446e-93f7-c6987fba84fb" />
+
+
+
+### 02 — Route-Level Details
+
+The details page provides granular analysis of individual rides and routes.
+
+This view allows users to move from **high-level trends to individual route-level observations**.
+
+<img width="1192" height="667" alt="Yandex 2" src="https://github.com/user-attachments/assets/1c02a1d9-a85a-4267-89b6-6b2b07e23e81" />
+
 
 ---
+
 
 ## 👩‍💻 About the Analyst
+
 <table width="100%" style="border: none; border-collapse: collapse;">
   <tr>
     <td align="center" style="border: none; padding: 15px;">

@@ -1,4 +1,4 @@
-# 📊 Classic Models Sales Performance Analytics
+# 📊 Sales Performance Analytics
 
 [![Data Analytics](https://img.shields.io/badge/Data_Analytics-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)](https://github.com)
 [![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://github.com)
@@ -30,7 +30,7 @@ Sales performance tracking and inventory management are critical for maintaining
 
 ---
 
-## 🛠️ Data Architecture & Schema Model
+## 🛠️ Data Architecture
 
 Architected using a Snowflake schema, this sales data warehouse normalizes dimension tables to streamline complex relationships and eliminate data redundancy. It features comprehensive fact tables that preserve deep, low-level transactional granularity across product lines, offices, and business processes.
 

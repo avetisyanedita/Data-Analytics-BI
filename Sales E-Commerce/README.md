@@ -32,7 +32,7 @@ Sales performance tracking and inventory management are critical for maintaining
 
 ## 🛠️ Data Architecture
 
-Architected using a Snowflake schema, this sales data warehouse normalizes dimension tables to streamline complex relationships and eliminate data redundancy. It features comprehensive fact tables that preserve deep, low-level transactional granularity across product lines, offices, and business processes.
+Architected using a **Snowflake schema**, this sales data warehouse normalizes dimension tables to streamline complex relationships and eliminate data redundancy. It features comprehensive fact tables that preserve deep, low-level transactional granularity across product lines, offices, and business processes.
 
 <img width="1169" height="1345" alt="Classicmodels_Schema" src="https://github.com/user-attachments/assets/45d28d96-6cac-44af-a0ba-b758bc76eacf" />
 

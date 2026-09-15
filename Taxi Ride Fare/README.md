@@ -38,12 +38,18 @@ The analysis focuses on questions that matter when evaluating a ride:
 
 ## 🔍 Key Findings & User Takeaways
 
-- **Average ride:** Start Fare **981 AMD**, Total Fare **2,205 AMD**, Distance **4.39 km**, and Duration **21.3 min**.
-- **Fare vs. distance:** The effective fare per kilometer generally decreases as trip distance increases, from approximately **868 AMD/km** for 1–2 km trips to **333 AMD/km** for 9–12 km trips.
-- **Ride categories:** Fare structures vary across **Start, Comfort, Comfort+, Minivan, and Premier**, allowing users to compare price differences between service levels.
-- **Route variation:** The **30 analyzed routes** show noticeable differences in fare, duration, distance, and markup, even for trips with similar characteristics.
-- **Period changes:** Average Total Fare increased **6.2%**, while average trip duration increased **17.2%**, indicating that longer journey times did not translate proportionally into higher fares.
-- **Trip conditions:** Temperature and weather provide additional context when comparing fare and duration across rides.
+
+- **Average ride economics:** A typical ride costs **2,205 AMD** over **4.39 km** and **21.3 min**, with a **981 AMD starting fare**—meaning the starting fare represents roughly **45% of the average total fare**.
+
+- **Strong distance effect:** Effective fare per kilometer drops sharply from **868 AMD/km** for 1–2 km trips to **333 AMD/km** for 9–12 km trips, making **short trips substantially more expensive on a per-kilometer basis**.
+
+- **Category matters:** **Start, Comfort, Comfort+, Minivan, and Premier** exhibit distinct fare structures, allowing users to assess the price premium associated with different service levels.
+
+- **Route is a major pricing factor:** Across **30 routes**, fares vary even when distance is comparable, indicating that **route characteristics contribute to price differences beyond distance alone**.
+
+- **Fare vs. journey time:** Total Fare increased **6.2%**, while trip duration rose **17.2%**—an **11.0 percentage-point gap** highlighting a notable divergence between fare growth and journey-time growth.
+
+- **Trip conditions add context:** **Weather, temperature, day interval, and weekday** provide additional context for understanding why otherwise comparable rides can differ in duration and fare.
 
 Overall, the report helps users **compare ride costs, understand fare-per-distance patterns, and evaluate price differences across routes and ride categories**.
 

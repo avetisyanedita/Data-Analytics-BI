@@ -62,7 +62,7 @@ Overall, the report helps users **compare ride costs, understand fare-per-distan
 | <div nowrap="nowrap">**Preparation**</div> | <img src="https://img.shields.io/badge/Google_Sheets-34A853?style=for-the-badge&logo=googlesheets&logoColor=white"/> | Organized, validated, and prepared the collected data for downstream analysis and reporting. |
 | <div nowrap="nowrap">**Modeling**</div> | <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black"/> | Designed a **star schema** to structure ride, route, fare, and supporting dimensions for efficient analysis and reporting. |
 | <div nowrap="nowrap">**Analysis**</div> | <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black"/> | Developed analytical KPIs and views to evaluate fares, fare-per-kilometer, trip duration, route variation, and period-over-period changes. |
-| <div nowrap="nowrap">**UI/UX Design**</div> | <img src="https://img.shields.io/badge/Pen.dev-2C3E50?style=for-the-badge"/> | Designed and prototyped the dashboard interface in **Pen.dev**, focusing on visual hierarchy, intuitive navigation, usability, and a consistent user experience. |
+| <div nowrap="nowrap">**UI/UX Design**</div> | <img src="https://img.shields.io/badge/Pen.dev-2C3E50?style=for-the-badge"/> | Designed and prototyped the dashboard interface in **Pen.dev**, applying **Gestalt principles, the Fibonacci rule, and the Rule of Thirds** to establish visual hierarchy, intuitive navigation, balanced layouts, and a consistent user experience. |
 
 ---
 
